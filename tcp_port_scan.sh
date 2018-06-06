@@ -13,6 +13,6 @@ else
 	execute=0
 fi
 if [[ "$execute" -eq 1 ]]; then
-	echo nmap --top-ports 100 -sU $ip_addr -oN $outfile
+	echo nmap --top-ports 10000 -sS $ip_addr -oN $outfile
 	nmap --top-ports 10000 -sS $ip_addr -oN $outfile
 fi
