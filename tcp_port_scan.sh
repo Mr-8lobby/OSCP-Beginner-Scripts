@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ip_addr=''
 outfile=''
 execute=1
